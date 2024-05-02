@@ -80,9 +80,6 @@ class ATM:
         self.pin = new_pin
         print("PIN successfully reset.")
 
-    def exit(self):
-        print("Thank you for using V25 ATM.") 
-
 def main():
     atm = ATM()
     atm.welcome()
